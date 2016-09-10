@@ -1871,6 +1871,9 @@ cmd_use_stemcell() {
 	(azure|hyperv)
 		name="bosh-azure-hyperv-ubuntu-trusty-go_agent"
 		;;
+	(google)
+		name="bosh-google-kvm-ubuntu-trusty-go_agent"
+		;;
 	(openstack)
 		name="bosh-openstack-kvm-ubuntu-trusty-go_agent"
 		;;
